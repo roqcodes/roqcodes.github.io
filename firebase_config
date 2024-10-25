@@ -1,0 +1,10 @@
+const firebaseConfig = {
+    apiKey: "AIzaSyBm6bl9gCqzTTo-nrMq9LLba7JetZ5mAwM",
+    authDomain: "infinitereality-ikgxcs.firebaseapp.com",
+    databaseURL: "https://infinitereality-ikgxcs.firebaseio.com",
+    projectId: "infinitereality-ikgxcs",
+    storageBucket: "infinitereality-ikgxcs.appspot.com",
+    messagingSenderId: "678050031744",
+    appId: "1:678050031744:web:1d1f9593faed22b773de65",
+    measurementId: "G-W4W212H36X"
+  };
