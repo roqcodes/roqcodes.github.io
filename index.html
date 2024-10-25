@@ -2,8 +2,10 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Story</title>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-database-compat.js"></script>
 
@@ -11,11 +13,12 @@
 </head>
 
 <body>
-    <div id="story"></div>
-    <input type="text" id="userInput" placeholder="Add to the story">
-    <button onclick="addToStory()">Submit</button>
-  
-    
+    <div id="container">
+        <h1>COntribute To The Story</h1>
+        <div id="story"></div>
+        <input type="text" id="userInput" placeholder="Add to the story">
+        <button onclick="addToStory()">Submit</button>
+    </div>
 </body>
 
 </html>
