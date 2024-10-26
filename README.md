@@ -13,35 +13,33 @@
 - Member 3: Mohammed Ramzan- SOE CUSAT
 
 ### Project Description
+A unique story telling app that offers strangers to contribute to a random inital thread and make it an entire novel which contains the creativity of large community.
+one person can only add one line at a time and. and the next line can be written by anybody online at the moment.
 
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+having lot of time and no other ways to waste it.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+same as project discription
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML, CSS, JS
+- None
+- Firebase Realtime Database
+- VScode, CHat GPT, Figma, and some brain
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+git clone https://github.com/roqcodes/roqcodes.github.io.git
 
 # Run
-[commands]
-
+Open index.html in a browser
+go to roqcodes.github.io
 ### Project Documentation
 For Software:
 
