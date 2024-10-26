@@ -44,51 +44,25 @@ go to roqcodes.github.io
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](img1.png)
+the initial user interface
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+![Screenshot2](img2.png)
+UI when user inputs a text.
+![Screenshot3](img3.png)
+UI when user submits. the text in textbox is updated in firebase realtime database and it is added to the story.
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+Page Loads
+-> connects to firebase db
+-> fetches a random story begining from database and lets user add their story.
+-> when user submits, the data is saved in database
+-> shows the new story to the new users.
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
+- Muhammed Ronak: Designed and developed the initial stages of the app.
+- Muhammed Danish: Developed the final stages of the app like random story showing.
+- Mohammed Ramzan: Finalized the UI design using HTMl and css
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
