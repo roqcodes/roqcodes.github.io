@@ -45,13 +45,12 @@ function addToStory() {
         });
     }
     const button = document.getElementById('btn');
-            button.disabled = true; // Disable the button
-            button.textContent = "Wait 30s before you can enter next line"; // Optional: change button text
+            button.disabled = true;
+            button.textContent = "Wait 30s before you can enter next line"; 
 
-            // Re-enable the button after 30 seconds
             setTimeout(() => {
-                button.disabled = false; // Enable the button
-                button.textContent = ""; // Optional: reset button text
+                button.disabled = false;
+                button.textContent = "";
             }, 30000);
 }
 
