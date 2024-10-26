@@ -38,8 +38,8 @@ For Software:
 git clone https://github.com/roqcodes/roqcodes.github.io.git
 
 # Run
-Open index.html in a browser
-go to roqcodes.github.io
+-Open index.html in a browser
+-go to roqcodes.github.io
 ### Project Documentation
 For Software:
 
