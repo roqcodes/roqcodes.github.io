@@ -1,4 +1,3 @@
-
 const firebaseConfig = {
         apiKey: "AIzaSyBm6bl9gCqzTTo-nrMq9LLba7JetZ5mAwM",
         authDomain: "infinitereality-ikgxcs.firebaseapp.com",
@@ -29,9 +28,9 @@ const storyRef = database.ref(z);
 
 
 storyRef.on('value', (snapshot) => {
-    const story = snapshot.val();
+const story = snapshot.val();
 
-    document.getElementById('story').innerText = story || "";
+document.getElementById('story').innerText = story || "";
 });
 
 function addToStory() {
@@ -45,6 +44,15 @@ function addToStory() {
             document.getElementById('userInput').value = "";
         });
     }
+    const button = document.getElementById('btn');
+            button.disabled = true; // Disable the button
+            button.textContent = "Wait 30s before you can enter next line"; // Optional: change button text
+
+            // Re-enable the button after 30 seconds
+            setTimeout(() => {
+                button.disabled = false; // Enable the button
+                button.textContent = "Submit"; // Optional: reset button text
+            }, 30000);
 }
 
 
