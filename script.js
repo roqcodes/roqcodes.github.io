@@ -51,7 +51,7 @@ function addToStory() {
             // Re-enable the button after 30 seconds
             setTimeout(() => {
                 button.disabled = false; // Enable the button
-                button.textContent = "Submit"; // Optional: reset button text
+                button.textContent = ""; // Optional: reset button text
             }, 30000);
 }
 
